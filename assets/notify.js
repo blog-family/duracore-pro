@@ -159,7 +159,7 @@
         
         var name = form.find('input[name="name"]');
         var phone = form.find('input[name="phone"]');
-        var url = 'https://api.rentracksw.com/lead/create?site_id=8936&advertiser_id=181&product_id=70696&token=qhy1b6LMDE5YmM1NjY3N2ZlOGM1YjA2NzBiNzY5ZDNhMjNm' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
+        var url = 'https://api.rentracksw.com/lead/create?site_id=2827&advertiser_id=181&product_id=70696&token=4P3B3KRNjA1YWM3YTgwNzk1MmRiNTQyNjhhMjRhMDM1Mzkx' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
         const toSend = {
             name: `${name.val()}`,
             phone: `${phone.val()}`
@@ -179,7 +179,7 @@
         }).then(
             response => response.json()
         ).then((html) => {
-            window.location.href = './thankyou.html?fb_pixel_id=1191384564936792';
+            window.location.href = './thankyou.html?fb_pixel_id=530889851577933,425830838912225,3220350228243081,699631887973468,417384736613774,771325537362819,686333219098119,340729394834526,1951351735065192,697856714774220,536532081523836,740227177004582,515347510292140,683956992831135,327803539430762';
         });
         
     }
